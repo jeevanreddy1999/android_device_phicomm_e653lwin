@@ -1,1 +1,1 @@
-add_lunch_combo cm_e653-userdebug
+add_lunch_combo cm_e653lwin-userdebug
