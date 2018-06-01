@@ -6,19 +6,19 @@ TARGET_SCREEN_HEIGHT := 1280
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/huawei/y560/y560.mk)
+$(call inherit-product, device/phicomm/e653lwin/e653lwin.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := y560
-PRODUCT_NAME := lineage_y560
-PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := Y5
-PRODUCT_MANUFACTURER := Huawei
-PRODUCT_RELEASE_NAME := Y5
+PRODUCT_DEVICE := e653
+PRODUCT_NAME := lineage_e653
+PRODUCT_BRAND := PHICOMM
+PRODUCT_MODEL := E653
+PRODUCT_MANUFACTURER := PHICOMM
+PRODUCT_RELEASE_NAME := E653
 
 # Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="msm8909-user 5.1.1 HUAWEIY560-L01 C577B040 release-keys" \
-    BUILD_FINGERPRINT="HUAWEI/Y560-L01/HWY560-L:5.1.1/HUAWEIY560-L01/C577B040:user/release-keys"
+    PRIVATE_BUILD_DESC="msm8909-user 5.1.1 PHICOMME653-L01 C577B040 release-keys" \
+    BUILD_FINGERPRINT="PHICOMM/E653-L01/PHE653-L:5.1.1/PHICOMME653-L01/C577B040:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-huawei
